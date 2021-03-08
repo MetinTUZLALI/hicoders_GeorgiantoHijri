@@ -1,4 +1,5 @@
-const {hicri,miladi} = require(`./src/hicriMiladi`) //we import those functions from the hicrimiladi sheet.
+const hicri = require(`./src/Hijri`) //we import those functions from the hicrimiladi sheet.
+const miladi = require('./src/georgian');
 
 
 const year = new Date().getFullYear();  // we get current year as variable.
